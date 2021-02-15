@@ -8,9 +8,9 @@ export const exclude = Map({
   name: [] as string[],
   collection: [] as string[],
   theme: [] as string[],
-  keyword: [] as string[],
-  modes: [],
-  color: ['Pink-Diamond', 'Galaxy-Opal'] as string[],
+  keyword: ['multiplayer'] as string[],
+  modes: ['unlimited', 'limited', 'online'],
+  color: [] as string[],
 })
 
 export const targetExp = 150_000
